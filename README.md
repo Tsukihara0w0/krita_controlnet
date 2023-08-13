@@ -1,7 +1,7 @@
 # krita_controlnet
  
 # 概要
-kritaでstable diffusion webuiを使用するためのプラグインです。
+kritaでstable diffusion webuiを使用するためのプラグインです。<br>
 レイヤー画像をcontrolnetで使用できます。
 
 
@@ -14,7 +14,7 @@ kritaでstable diffusion webuiを使用するためのプラグインです。
 - krita v5.1.5
 
 # 使い方
-1. **kritaプラグインを配置**
+1. **kritaプラグインを配置**<br>
    [releases](https://github.com/Tsukihara0w0/krita_controlnet/releases)からzipをダウンロードしkritaリソースフォルダのpykritaディレクトリに解凍してください。
    ```
    pykrita/
@@ -24,10 +24,10 @@ kritaでstable diffusion webuiを使用するためのプラグインです。
    |   └── ...
    └── krita_controlnet.desktop
    ```
-2. **webuiをapiで起動**
+2. **webuiをapiで起動**<br>
    webui-user.batに`COMMANDLINE_ARGS=--api`を追記してください。
 
-3. **kritaプラグインを有効化**
+3. **kritaプラグインを有効化**<br>
    kritaにて[設定] -> [Kritaの設定を変更] -> [Pythonプラグインマネージャー] からkrita_controlnetを有効化し、kritaを再起動します。
 
 4. 画面右側にドッキングパネルが追加されます。<br>
