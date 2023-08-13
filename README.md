@@ -4,6 +4,11 @@
 kritaでstable diffusion webuiを使用するためのプラグインです。
 レイヤー画像をcontrolnetで使用できます。
 
+
+[sample.mp4](https://github.com/Tsukihara0w0/krita_controlnet/assets/138929225/41708677-5520-43d9-9974-ba0724772fbc)
+
+
+
 # 動作環境
 - stable diffusion webui v1.5.1
 - krita v5.1.5
