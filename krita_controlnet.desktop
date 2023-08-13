@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=krita_controlnet
+X-Python-2-Compatible=false
+X-Krita-Manual=manual.html
+Name=krita_controlnet
+Comment=send layer to controlnet.
