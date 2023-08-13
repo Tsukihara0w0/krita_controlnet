@@ -658,7 +658,7 @@ class ControlnetDocker(DockWidget):
         img_payload = {"image": "data:image/png;base64," + response["images"][0]}
         response2 = api.post("sdapi/v1/png-info", img_payload)
         self.parameters = response2["info"]
-        if not self.hires.isChecked(): self.parameters = delete_denoising_strength(self.parameters)
+        if not self.i2i_enable.isChecked() and not self.hires.isChecked(): self.parameters = delete_denoising_strength(self.parameters)
         self.latest_seed = extract_seed(self.parameters)
     
     def save_button_clicked(self):
